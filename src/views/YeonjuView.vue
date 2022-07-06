@@ -1,9 +1,8 @@
 <template>
   <div>
-    <h1>HOME PAGE!!</h1>
+    <h1>Yeonju PAGE</h1>
     <form action="">
       <InputField v-model="name"/>
-      <!-- <InputField :name="name" @update-name="updateName"/> -->
       <br><button>Submit</button>
     </form>
     {{name}}
@@ -22,11 +21,11 @@ export default {
       name: ''
     }
   },
-  methods:{
-    updateName(name){
-      this.name= name;
-    }
-  }
+  // methods:{
+  //   updateName(name){
+  //     this.name= name;
+  //   }
+  // }
 }
 
 </script>
